@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar{
+    align-items: center;
+    text-align: center;
+}
+.content_navbar{
+    /* display: flex; */
+    justify-content: space-between;
+    background-image: url(https://www.xxosoae.com/send_imgs.php?img=abe91d36bea45a343609fca197da54079HR0cHM6Lybe91d36bea45a343609fca197da5407993d3cueHhvc29hZS5jb20vc2VuZF9pbWdzLnBocD9pbWc9YWJlOTFkMzZiZWE0NWEzNDM2MDlmY2ExOTdkYTU0MDc5SFIwY0hNNkx5YmU5MWQzNmJlYTQ1YTM0MzYwOWZjYTE5N2RhNTQwNzk5cGJXRm5aWE10Ym1FdWMzTnNMV2x0WVdkbGN5MWhiV0Y2YjI0dVkyOXRMMmx0WVdkbGN5OUpMell4SlRKQ00wbGlUMkpXZVV3dVgxTk1NVE16TTE4dWFuQm4=);
+    background-position: center;
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+.urls{
+    padding: 5px;
+}
+li{
+    display: inline;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    color: black;
+}
+a:hover{
+    color: red;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: red; */
+}
+.fondo_main{
+    background: #f5f2f0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    padding: 20px;
+    font-size: 60px;
+}
+.habitacion{
+    border-radius: 5px;
+    text-align: center;
+    background: #fff6f6;
+    display: inline-grid;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    /* margin: auto; */
+    padding: 1%;
+    box-shadow: 0px 0px 10px 0px #999;
+}
+button{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: #ff9c9c;
+    outline: none;
+    padding: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff4f4f;
+}
+#footer{
+    background-color:#ffdeff;
+    text-align: center;
+    padding: 20px;
+}
+.fondo{
+    padding: 0px;
+    margin: 0px;
+}
+.fondo img{
+    width: 100%;
+    height: 100%;
+}
+.frase{
+    background: transparent;
+    border: 0.5px solid red;
+    box-shadow: 0px 0px 10px 0px #999;
+    width: 50%;
+    /* margin-top: 8%; */
+    margin-left: 25%;
+    text-align: center;
+    padding: 25px;
+}
+.frase h1{
+    padding: 0;
+    padding-bottom: 15px;
+}
+.formulario_tiempo{
+    display: inline-table;
+    background: #fff6f6;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 6.5%;
+    padding: 2%;
+    box-shadow: 0px 0px 10px 0px #999;
+}
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#botonform{
+    background: #ff9c9c;
+    border: 3px solid #ff9c9c;
+}
+#botonform:hover{
+    background: #ff4f4f;
+    border: 3px solid #ff4f4f;
+}
+.fondso_main{
+    padding-top:7.8%;
+    background-color: #f5f2f0;
+}
+.info_contact{
+    background-color: #ff4f4f;
+    display: inline-grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    justify-content: left;
+    margin-right: 5%;
+    margin-left: 0%;
+    box-shadow: 0px 0px 10px 0px #999;
+    /* margin-left: 26.25%;
+    margin-right: 26.25%; */
+}
+.giturl, .gmailurl, .hotmailurl{
+    height: 100px; 
+    width: 100 px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.formcorreodeje{
+    background: #ff4f4f;
+    display: inline-table;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #999;
+    /* padding: 40px;
+    margin-left: 5%;
+    margin-top: 23%; */
+}
+.mi_nombrebb{
+    text-align: center;
+    margin: 5%;
+}
+.informacion_personal{
+    text-align: center;
+    margin: 12.1%;
+}
+#especial{
+    background-color: blue;
+    color: aliceblue;
+}

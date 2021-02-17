@@ -1,0 +1,17 @@
+{% load static %}
+<nav id="navbar">
+    <div class="content_navbar">
+        <div class="logo_amor">
+            <img src="{% static 'img/bb1.png' %}" height="50" width="50">
+        </div>
+        <div class="urls">
+            <ul class="listas_desordenadas">
+                <li><a href="{% url 'reservas:init' %}">Inicio</a></li>
+                <li><a href="templates/Informacion.html">Informacion</a></li>
+                <li><a href="templates/portafolio.html">Portafolio</a></li>
+                <li><a href="templates/contacto.html">Contacto</a></li>
+                <li><a href="templates/personal.html">Personal</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
