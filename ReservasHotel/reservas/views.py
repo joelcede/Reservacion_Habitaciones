@@ -17,3 +17,6 @@ class Portafolio_View(auth_views.LoginView):
 
 class Contacto_View(auth_views.LoginView):
     template_name = 'contacto.html'
+
+class Personal_View(auth_views.LoginView):
+    template_name = 'personal.html'

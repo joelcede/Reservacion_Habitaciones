@@ -21,6 +21,11 @@ urlpatterns = [
         route='contacto/',
         view=views.Contacto_View.as_view(),
         name='contacto'
+    ),
+    path(
+        route='personal/',
+        view=views.Personal_View.as_view(),
+        name='personal'
     )
 ]
 
