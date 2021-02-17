@@ -12,5 +12,5 @@ class Reservas_View(auth_views.LoginView):
 class Informacion_View(auth_views.LoginView):
     template_name = 'informacion.html'
 
-class Informacion_View(auth_views.LoginView):
-    template_name = 'informacion.html'
+class Portafolio_View(auth_views.LoginView):
+    template_name = 'portafolio.html'

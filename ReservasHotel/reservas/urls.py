@@ -12,6 +12,10 @@ urlpatterns = [
         view=views.Informacion_View.as_view(),
         name='informacion'
     ),
-
+    path(
+        route='portafolio/',
+        view=views.Portafolio_View.as_view(),
+        name='portafolio'
+    )
 ]
 
