@@ -6,7 +6,12 @@ urlpatterns = [
         route='',
         view=views.Reservas_View.as_view(),
         name='init'
-    )
+    ),
+    path(
+        route='informacion/',
+        view=views.Informacion_View.as_view(),
+        name='informacion'
+    ),
 
 ]
 

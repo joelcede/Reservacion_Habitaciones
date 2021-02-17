@@ -8,3 +8,9 @@ from django.contrib.auth import views as auth_views
 
 class Reservas_View(auth_views.LoginView):
     template_name = 'init.html'
+
+class Informacion_View(auth_views.LoginView):
+    template_name = 'informacion.html'
+
+class Informacion_View(auth_views.LoginView):
+    template_name = 'informacion.html'
