@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block head_content %}
+    <title>Contacto</title>
+{% endblock %}
+
+{% load static %}
+
+{% block container %}
+<main>
+    <div class="conteinerinfo_correo fondo_main" >
+        <div class="info_contact">
+            <a href="https://github.com/joelcede" style="border: none;"><img src="{% static 'img/github.png' %}" class="giturl"></a><br>
+            <a href="mailto:joscedeno@institucion.ec" style="border: none;"><img src="{% static 'img/gmail.png' %}" class="gmailurl"></a><br>
+            <a href="mailto:jioska_one@outlook.es" style="border: none;"><img src="{% static 'img/hotmaill.png' %}" class="hotmailurl"></a>
+        </div>
+        <div class="formcorreodeje">
+            <h1>Tambien puede contactarnos por</h1><br>
+            <h3>Direccion: av. la que cruza y esquiva balas</h3><br>
+            <h3>Telefono: (234) 3432-324-213</h3><br>
+            <h3>preguntar por la encargada :v</h3><br>
+            <h3>gracias</h3><br>
+        </div>
+    </div>
+</main>
+{% endblock %}

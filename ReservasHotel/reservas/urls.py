@@ -16,6 +16,11 @@ urlpatterns = [
         route='portafolio/',
         view=views.Portafolio_View.as_view(),
         name='portafolio'
+    ),
+    path(
+        route='contacto/',
+        view=views.Contacto_View.as_view(),
+        name='contacto'
     )
 ]
 
