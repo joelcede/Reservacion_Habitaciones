@@ -9,7 +9,7 @@ urlpatterns = [
     ),
     path(
         route='informacion/',
-        view=views.Informacion_View.as_view(),
+        view=views.informacion,
         name='informacion'
     ),
     path(

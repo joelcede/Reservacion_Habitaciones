@@ -107,6 +107,19 @@
                 <br>
             <button>Reserva la habitacion aqui 🥵</button>
         </div>
+        {% for project in projects %}
+        <div class="habitacion">
+            <img src="{{ project.imagen.url }}" height="200" width="300">
+            <h2>{{project.titulo}}</h2>
+            <p>⭐⭐⭐⭐⭐</p>
+            <br>
+                <li>{{project.despr1}}</li>
+                <li>{{project.despr2}}</li>
+                <li>{{project.despr3}}</li>
+                <br>
+            <button>Reserva la habitacion aqui 🥵</button>
+        </div>
+        {% endfor %}
     </div>
 </main>
 {% endblock %}

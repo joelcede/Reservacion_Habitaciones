@@ -3,14 +3,16 @@ from django.http import HttpResponse
 from templates import users
 from django.urls import reverse, reverse_lazy
 from django.contrib.auth import views as auth_views
+from reservas.models import Habitaciones
 
 # Create your views here.
 
 class Reservas_View(auth_views.LoginView):
     template_name = 'init.html'
 
-class Informacion_View(auth_views.LoginView):
-    template_name = 'informacion.html'
+def informacion(request):
+    projects = Habitaciones.objects.all()
+    return render(request,'informacion.html', {'projects':projects})
 
 class Portafolio_View(auth_views.LoginView):
     template_name = 'portafolio.html'
